@@ -1,5 +1,4 @@
 import "./styles/App.css";
-import Header from "./Header";
 import Card from "./Card";
 import profileImage from "../assets/pfp.png";
 
@@ -10,7 +9,6 @@ let description =
 function App() {
 	return (
 		<>
-			<Header />
 			<div className='app'>
 				<Card title={name} description={description} pfp={profileImage} />
 			</div>
