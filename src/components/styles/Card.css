@@ -7,7 +7,7 @@
 	gap: 1em;
 	min-height: 300px;
 	border-radius: 20px;
-	background-color: rgb(1, 46, 60);
+	background: linear-gradient(231deg, #004a61, #01303e);
 	color: #fff8d3;
 	max-width: 1000px;
 	overflow: hidden;
