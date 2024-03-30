@@ -57,10 +57,10 @@
 		flex-direction: row;
 	}
 	.card__socials-list {
-		padding: 1.5em 0.5em;
+		padding: 0em;
 	}
 	.card__socials-link {
-		width: 30px;
-		height: 30px;
+		width: 34px;
+		height: 34px;
 	}
 }
