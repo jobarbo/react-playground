@@ -1,7 +1,5 @@
 import "./styles/App.css";
 import Header from "./Header";
-import Card from "./Card";
-import profileImage from "../assets/pfp.png";
 
 let name = "JBarbeau.art";
 let description =
@@ -12,7 +10,8 @@ function App() {
 		<>
 			<Header />
 			<div className='app'>
-				<Card title={name} description={description} pfp={profileImage} />
+				<h1 className='app__title'>{name}</h1>
+				<p className='app__text'>{description}</p>
 			</div>
 		</>
 	);
