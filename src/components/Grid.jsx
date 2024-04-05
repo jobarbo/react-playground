@@ -10,11 +10,13 @@ function Grid() {
 		setSelectedImage(image);
 		// Add class to app__overlay to show the overlay
 		document.querySelector(".app__overlay").classList.add("app__overlay--show");
+		document.body.classList.add("scroll-lock");
 	};
 
 	const handleClose = () => {
 		// Remove class from app__overlay to hide the overlay
 		document.querySelector(".app__overlay").classList.remove("app__overlay--show");
+		document.body.classList.remove("scroll-lock");
 		// add a delay to remove the selected image
 		setTimeout(() => {
 			setSelectedImage(null);

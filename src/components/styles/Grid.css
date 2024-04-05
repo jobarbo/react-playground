@@ -23,7 +23,7 @@
 	opacity: 0;
 	transition: opacity 0.5s;
 	pointer-events: none;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -46,6 +46,7 @@
 	padding: 1rem;
 	background-color: white;
 	border-radius: 5px;
+	height: 80%;
 }
 
 .app__overlay-close {
