@@ -1,0 +1,61 @@
+.app__grid {
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	grid-gap: 1rem;
+	padding: 1rem;
+	justify-content: center;
+}
+
+.app__grid-item {
+	cursor: pointer;
+	position: relative;
+}
+
+.app__grid-index {
+	color: white;
+	position: absolute;
+	top: 0.25em;
+	left: 0.25em;
+	font-size: 14px;
+}
+
+.app__overlay {
+	opacity: 0;
+	transition: opacity 0.5s;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100dvh;
+	background-color: #000000dc;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.app__overlay--show {
+	opacity: 1;
+	pointer-events: all;
+}
+
+.app__overlay-content {
+	margin: 0 auto;
+	margin-bottom: 2em;
+	padding: 1rem;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.app__overlay-close {
+	top: 0.5em;
+	right: 0.5em;
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	border-radius: 50px;
+	padding: 0.5rem 1rem;
+	font-family: helvetica, sans-serif;
+	font-weight: 600;
+}
