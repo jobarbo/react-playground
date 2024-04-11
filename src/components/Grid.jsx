@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "./styles/Grid.css";
 
-const gallery = Object.values(import.meta.glob("../assets/voidwarden/*.{png,jpg,jpeg,PNG,JPG,JPEG}", {eager: true, as: "url"}));
+const gallery = Object.values(import.meta.glob("../assets/kodadot/*.{png,jpg,jpeg,PNG,JPG,JPEG}", {eager: true, as: "url"}));
 
 function Grid() {
 	const [selectedImage, setSelectedImage] = useState(null);

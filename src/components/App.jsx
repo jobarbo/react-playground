@@ -2,9 +2,9 @@ import "./styles/App.css";
 import Header from "./Header";
 import Grid from "./Grid";
 
-let name = "VOIDWARDEN (BETA) by JBarbeau.art";
+let name = "Art project proposal for Kodadot";
 let description =
-	"VOIDWARDEN is a generative project that uses particle physics to create unique, abstract art. Each piece is a snapshot of a moment in time, a glimpse into the void. The project is in beta and will feature more variations and options in the future.";
+	"Each row represent a possible project. Click on an image to see a high resolution version of the output. Please note: Row 5 is animated. I can provide an animated version if needed.";
 
 function App() {
 	return (
