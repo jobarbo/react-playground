@@ -4,7 +4,7 @@ import Grid from "./Grid";
 
 let name = "Art project proposal for Alba.art";
 let description =
-	"Each row represent a possible project. Click on an image to see a high resolution version of the output. Please note: Row 5 is animated. I can provide an animated version if needed.";
+	"Each row represent a possible project. Click on an image to see a high resolution version of the output. Please note: Images have been a bit compressed for web purposes. Let me know and I'll send you the raw ones.";
 
 function App() {
 	return (
